@@ -1,0 +1,32 @@
+{
+  "name": "fdevs/data-extractor",
+  "type": "library",
+  "license": "MIT",
+  "description": "4devs Data Extractor library",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Andrey Samusev",
+      "email": "andrey_simfi@list.ru",
+      "homepage": "http://andrey.4devs.io"
+    },
+    {
+      "name": "4devs Community",
+      "homepage": "https://github.com/4devs/data-extractor/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "league/pipeline": "^0.3.0"
+  },
+  "suggest": {
+    "league/pipeline": "use with pipline data extension"
+  },
+  "autoload": {
+    "psr-4": {
+      "FDevs\\DataExtractor\\": ""
+    }
+  }
+}
