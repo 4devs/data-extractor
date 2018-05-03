@@ -2,7 +2,6 @@
 
 namespace FDevs\DataExtractor\Extension\Data;
 
-
 use FDevs\DataExtractor\Extension\DataExtensionInterface;
 use FDevs\DataExtractor\ExtractedInterface;
 use League\Pipeline\Pipeline;
